@@ -1,0 +1,88 @@
+body {
+    background: black;
+}
+.Logo {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;     /* Centers the image vertically */
+    margin-top: 50px;
+}
+.Logo img {
+    width: 660px;
+    height: 420px;
+}
+.Searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Searchbar input {
+    border-radius: 30px;
+    width: 640px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Arial Black";
+}
+.districttitles {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;     /* Centers the image vertically */
+    margin-top: 20px;
+}
+.districttitles img {
+    width: 750px;
+    height: 370px;
+}
+bpdy {
+    background: black;
+}
+.Options {
+    display: flex;          /* Aligns all child elements in a horizontal row */
+    flex-direction: row;    /* Explicitly forces horizontal alignment */
+    justify-content: style; /* Distributes space evenly between images */
+    align-items: center;    /* Vertically aligns images if they have different heights */ /* Spans across the full container width */
+    gap: 300px;
+    left: 30px;
+    margin-top: 30px;/* Adds a clean space between your images */
+}
+.Options {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    width: 100%;
+    margin-top: 30px;
+}
+.Options img {
+    width: 30vw;
+    height: 30vw;
+    max-width: 360px;
+    max-height: 360px;
+    object-fit: cover;
+}
+.card {
+    text-align: center;
+    font-family: "Arial Black";
+    color: white;
+    font-size: 20px;
+}
+
+.card img {
+    width: 22vw;
+    height: 22vw;
+    max-width: 360px;
+    max-height: 360px;
+    object-fit: cover;
+}
+.EntebbeBackground {
+    background-image: url("../Districts/Entebbe/EntebbeBackground.png"); /* Put your exact image file name here */
+    background-size: cover;        /* Scales the image to fill the entire screen beautifully */
+    background-position: center;   /* Centers the image so it doesn't cut off awkwardly */
+    background-repeat: no-repeat;  /* Prevents the image from duplicating/tiling */
+    background-attachment: fixed;   /* Keeps the background locked in place while scrolling */
+    margin: 0;                     /* Removes standard browser whitespace around edges */
+}
+.
